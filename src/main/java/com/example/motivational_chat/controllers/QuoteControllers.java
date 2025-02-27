@@ -24,4 +24,6 @@ public class QuoteControllers {
         return randomQuote.map(quote -> String.format("« %s » - %s", quote.getText(), quote.getAuthor()))
                           .orElse("Aucune citation disponible.");
     }
+    
+    
 }
