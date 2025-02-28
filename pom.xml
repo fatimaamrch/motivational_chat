@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
+=======
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+>>>>>>> app
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
@@ -10,9 +16,15 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
+<<<<<<< HEAD
 	<artifactId>motivational-chat</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>motivational-chat</name>
+=======
+	<artifactId>motivational_chat_app</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>motivational_chat_app</name>
+>>>>>>> app
 	<description>Demo project for Spring Boot</description>
 	<url/>
 	<licenses>
@@ -37,10 +49,26 @@
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
+<<<<<<< HEAD
+=======
+			<artifactId>spring-boot-starter-thymeleaf</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+>>>>>>> app
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 
 		<dependency>
+<<<<<<< HEAD
+=======
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-devtools</artifactId>
+			<scope>runtime</scope>
+			<optional>true</optional>
+		</dependency>
+		<dependency>
+>>>>>>> app
 			<groupId>com.mysql</groupId>
 			<artifactId>mysql-connector-j</artifactId>
 			<scope>runtime</scope>
@@ -51,9 +79,15 @@
 			<scope>test</scope>
 		</dependency>
 		<dependency>
+<<<<<<< HEAD
 		    <groupId>javax.persistence</groupId>
 		    <artifactId>javax.persistence-api</artifactId>
 		    <version>2.2</version>
+=======
+		    <groupId>org.projectlombok</groupId>
+		    <artifactId>lombok</artifactId>
+		    <scope>provided</scope>
+>>>>>>> app
 		</dependency>
 	</dependencies>
 
