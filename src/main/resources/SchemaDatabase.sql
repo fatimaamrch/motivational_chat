@@ -13,8 +13,7 @@ CREATE TABLE `message` (
   `username` varchar(255) DEFAULT NULL,
   `user_id` bigint DEFAULT NULL,
   PRIMARY KEY (`id`),
-  KEY `FKb3y6etti1cfougkdr0qiiemgv` (`user_id`),
-  CONSTRAINT `FKb3y6etti1cfougkdr0qiiemgv` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`)
+  FOREIGN KEY (`user_id`) REFERENCES `user` (`id`)
 ) 
 
 CREATE TABLE `user` (
